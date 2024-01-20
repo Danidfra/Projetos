@@ -136,7 +136,7 @@ main {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-itens: center;
 
 }
 
@@ -144,7 +144,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-itens: center;
     text-align: center;
     max-width: 400px;
     box-sizing: border-box;
@@ -174,7 +174,7 @@ main {
 .div_inputs {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-itens: center;
 
 }
 
