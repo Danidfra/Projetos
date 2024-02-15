@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    text-align: center;
+}
+
+.container_f{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: auto;
+
+}
+
+.input {
+    width: 40px;
+}
+
+/* .container div button{
+} */
+
+button{
+
+    position: relative;
+    bottom: -9px;
+    width: 60px;
+    height: 21.5px;
+}
+
+.container_input{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+#mostradorC {
+    display: none;
+}

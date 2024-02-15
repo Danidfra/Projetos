@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Treinando</title>
+</head>
+<body>
+    <div class="container" id="1">
+        <h1>Contador</h1>
+
+        <div class="container_f">    
+            <div class="container_input">
+                <label id="label" for="nmr1">Qual o número inicial?</label>
+            <input class="input" id="nmr1" type="number" placeholder="" required>
+            </div>
+            <div class="container_input">
+                <label id="label" for="nmr2">Qual o número final?</label>
+            <input class="input" id="nmr2" type="number" placeholder="" required>
+            </div>
+            <div class="container_input">
+                <label id="label" for="pulo">De quanto em quanto devo contar?</label>
+            <input class="input" id="pulo" type="number" placeholder="" required>
+            </div>
+        </div>
+
+        <p id="mostradorC"></p>
+
+        <button id="btn" onclick="contar()">Iniciar</button>
+
+
+        <p id="text"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
