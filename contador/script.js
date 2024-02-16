@@ -69,7 +69,11 @@ function contar() {
     }
     }
 
-
+    // return "testando um valor"
 
 
 }
+
+// var testado = contar()
+
+// console.log(testado)
