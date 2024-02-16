@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Treinando</title>
+</head>
+<body>
+    <div class="container" id="1">
+        <h1>"Fibonacci"</h1>
+
+        <div class="container_f">    
+            <div class="container_input">
+                <label id="label" for="n1">Qual o primeiro número?</label>
+            <input class="input" id="n1" type="number" placeholder="" required>
+            </div>
+            <div class="container_input">
+                <label id="label" for="n2">Qual o segundo número?</label>
+            <input class="input" id="n2" type="number" placeholder="" required>
+            </div>
+            <div class="container_input">
+                <label id="label" for="c">Quantos números devem ser somados?</label>
+            <input class="input" id="c" type="number" placeholder="" required>
+            </div>
+        </div>
+
+        <p id="mostradorC"></p>
+
+        <button id="btn" onclick="initFib()">Iniciar</button>
+
+
+        <p id="text"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
